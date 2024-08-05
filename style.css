@@ -1,0 +1,145 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    text-shadow: #f4f4f4;
+}
+
+nav h1 {
+    margin: 0;
+    text-shadow: grey;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero section styles */
+.hero {
+    background: url('https://assets.vogue.com/photos/61e9c43c8aa98afba69ec2e8/master/w_2560%2Cc_limit/00_story.jpg')no-repeat center center/cover;
+    color: white;
+    text-shadow: #ddd;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.hero .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.hero h2 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+
+.hero p {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+.cta-button {
+    background: #007bff;
+    color: #fff;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: white;
+}
+
+.cta-button:hover {
+    background: #0056b3;
+    box-shadow: #007bff;
+}
+
+/* Featured Products section styles */
+.featured-products {
+    background: #f4f4f4;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.featured-products .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.featured-products h2 {
+    margin-bottom: 2rem;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 300px;
+    margin: 1rem;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.product h3 {
+    margin: 1rem 0;
+}
+
+.product p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+/* Footer styles */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer .container {
+    width: 90%;
+    margin: 0 auto;
+}
